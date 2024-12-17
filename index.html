@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivinanza de números</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1 class="main__titulo">Juego de Adivinar el Numero</h1>
+        <p class="main__parrafo">Hemos seleccionado un rúmero aleatorio entra 1 y 100. Tu objetivo es adivinar en 10 movidas o menos. Se te dira si estás por encima o por debajo del número.</p>
+
+        <div class="formulario">
+            <label for="input" class="formulario__titulo">Ingresa el numero</label>
+            <input type="number" id="input" min="1" max="100" class="formulario__numero">
+
+            <input type="submit" class="formulario__enviar">
+        </div>
+
+        <div class="main__resultado">
+            <p class="resultado__jugado">Numeros Jugados: </p>
+            <p class="resultado"></p>
+        </div>
+    </main>
+</body>
+    <script src="js/index.js"></script>
+</html>

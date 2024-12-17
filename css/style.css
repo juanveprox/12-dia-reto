@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+body{
+    background-color: #000000;
+}
+
+main{
+    background-color: #383839;
+    color: #FF9500;
+    width: 60%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.main__titulo{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.main__parrafo{
+    margin: 1rem auto 0;
+    text-align: center;
+    width: 80%;
+}
+
+.formulario{
+    width: 70%;
+    margin: 1rem auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formulario__titulo{
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.formulario__numero{
+    font-size: 1.5rem;
+    width: 60%;
+}
+
+.formulario__enviar{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #0f93da;
+    color: #fff;
+    border: none;
+    padding:.5rem 1rem;
+}
+
+
+.formulario__enviar:hover{
+    background-color: #00a6ff;
+    color: #e9e3e3;
+}
+
+.main__resultado{
+    margin: 2rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.resultado{
+    padding: 0 .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a34242;
+}
